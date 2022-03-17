@@ -2,8 +2,11 @@ auth:
   registry.hub.docker.com:
     username: DOCKERHUB_USERNAME
     password: DOCKERHUB_PASSWORD
+  registry.cn-hangzhou.aliyuncs.com:
+    username: ALIYUN_USERNAME
+    password: ALIYUN_PASSWORD
 images:
-  # kubernetes
+  # kubernetes to dockerhub
   k8s.gcr.io/kube-apiserver: chengleqi/kube-apiserver
   k8s.gcr.io/kube-controller-manager: chengleqi/kube-controller-manager
   k8s.gcr.io/kube-scheduler: chengleqi/kube-scheduler
@@ -11,3 +14,12 @@ images:
   k8s.gcr.io/pause: chengleqi/pause
   k8s.gcr.io/etcd: chengleqi/etcd
   coredns/coredns: chengleqi/coredns
+  
+  # kubernetes to ACR
+  k8s.gcr.io/kube-apiserver: registry.cn-hangzhou.aliyuncs.com/chengleqi/kube-apiserver
+  k8s.gcr.io/kube-controller-manager: registry.cn-hangzhou.aliyuncs.com/chengleqi/kube-controller-manager
+  k8s.gcr.io/kube-scheduler: registry.cn-hangzhou.aliyuncs.com/chengleqi/kube-scheduler
+  k8s.gcr.io/kube-proxy: registry.cn-hangzhou.aliyuncs.com/chengleqi/kube-proxy
+  k8s.gcr.io/pause: registry.cn-hangzhou.aliyuncs.com/chengleqi/pause
+  k8s.gcr.io/etcd: registry.cn-hangzhou.aliyuncs.com/chengleqi/etcd
+  coredns/coredns: registry.cn-hangzhou.aliyuncs.com/chengleqi/coredns
