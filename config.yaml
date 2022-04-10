@@ -11,3 +11,10 @@ images:
   k8s.gcr.io/pause: chengleqi/pause
   k8s.gcr.io/etcd: chengleqi/etcd
   coredns/coredns: chengleqi/coredns
+  gcr.io/knative-releases/knative.dev/serving/cmd/queue: chengleqi/knative-queue
+  gcr.io/knative-releases/knative.dev/serving/cmd/activator: chengleqi/knative-activator
+  gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler: chengleqi/knative-autoscaler
+  gcr.io/knative-releases/knative.dev/serving/cmd/controller: chengleqi/knative-controller
+  gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping: chengleqi/knative-domain-mappint
+  gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook: chengleqi/knative-domain-mapping-webhook
+  gcr.io/knative-releases/knative.dev/serving/cmd/webhook: chengleqi/knative-webhook
