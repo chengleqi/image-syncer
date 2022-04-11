@@ -18,7 +18,7 @@ images:
 #   gcr.io/knative-releases/knative.dev/serving/cmd/controller: chengleqi/knative-controller
 #   gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping: chengleqi/knative-domain-mappint
 #   gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook: chengleqi/knative-domain-mapping-webhook
-  gcr.io/knative-releases/knative.dev/serving/cmd/webhook: chengleqi/knative-webhook
+#   gcr.io/knative-releases/knative.dev/serving/cmd/webhook: chengleqi/knative-webhook
   # tekton to dockerhub
 #   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller: chengleqi/tekton-controller
 #   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook: chengleqi/tekton-webhook
