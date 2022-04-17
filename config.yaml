@@ -4,21 +4,21 @@ auth:
     password: DOCKERHUB_PASSWORD
 images:
   # kubernetes to dockerhub
-  k8s.gcr.io/kube-apiserver: chengleqi/kube-apiserver
-  k8s.gcr.io/kube-controller-manager: chengleqi/kube-controller-manager
-  k8s.gcr.io/kube-scheduler: chengleqi/kube-scheduler
-  k8s.gcr.io/kube-proxy: chengleqi/kube-proxy
-  k8s.gcr.io/pause: chengleqi/pause
-  k8s.gcr.io/etcd: chengleqi/etcd
-  coredns/coredns: chengleqi/coredns
+#   k8s.gcr.io/kube-apiserver: chengleqi/kube-apiserver
+#   k8s.gcr.io/kube-controller-manager: chengleqi/kube-controller-manager
+#   k8s.gcr.io/kube-scheduler: chengleqi/kube-scheduler
+#   k8s.gcr.io/kube-proxy: chengleqi/kube-proxy
+#   k8s.gcr.io/pause: chengleqi/pause
+#   k8s.gcr.io/etcd: chengleqi/etcd
+#   coredns/coredns: chengleqi/coredns
   # knative to dockerhub
-  gcr.io/knative-releases/knative.dev/serving/cmd/queue: chengleqi/knative-queue
-  gcr.io/knative-releases/knative.dev/serving/cmd/activator: chengleqi/knative-activator
-  gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler: chengleqi/knative-autoscaler
-  gcr.io/knative-releases/knative.dev/serving/cmd/controller: chengleqi/knative-controller
-  gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping: chengleqi/knative-domain-mapping
-  gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook: chengleqi/knative-domain-mapping-webhook
-  gcr.io/knative-releases/knative.dev/serving/cmd/webhook: chengleqi/knative-webhook
+#   gcr.io/knative-releases/knative.dev/serving/cmd/queue: chengleqi/knative-queue
+#   gcr.io/knative-releases/knative.dev/serving/cmd/activator: chengleqi/knative-activator
+#   gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler: chengleqi/knative-autoscaler
+#   gcr.io/knative-releases/knative.dev/serving/cmd/controller: chengleqi/knative-controller
+#   gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping: chengleqi/knative-domain-mapping
+#   gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook: chengleqi/knative-domain-mapping-webhook
+#   gcr.io/knative-releases/knative.dev/serving/cmd/webhook: chengleqi/knative-webhook
   # tekton to dockerhub
   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller: chengleqi/tekton-controller
   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook: chengleqi/tekton-webhook
