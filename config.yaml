@@ -20,13 +20,13 @@ images:
 #   gcr.io/knative-releases/knative.dev/serving/cmd/domain-mapping-webhook: chengleqi/knative-domain-mapping-webhook
 #   gcr.io/knative-releases/knative.dev/serving/cmd/webhook: chengleqi/knative-webhook
   # tekton to dockerhub
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller: chengleqi/tekton-controller
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook: chengleqi/tekton-webhook
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/kubeconfigwriter: chengleqi/tekton-kubeconfigwriter
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/git-init: chengleqi/tekton-git-init
+#   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller: chengleqi/tekton-controller
+#   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook: chengleqi/tekton-webhook
+#   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/kubeconfigwriter: chengleqi/tekton-kubeconfigwriter
+#   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/git-init: chengleqi/tekton-git-init
   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint: chengleqi/tekton-entrypoint
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop: chengelqi/tekton-nop
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter: chengleqi/tekton-imagedigestexporter
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init: chengleqi/tekton-pullrequest-init
-  gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit: chengleqi/tekton-workingdirinit
-  gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard: chengleqi/tekton-dashboard
+#   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop: chengelqi/tekton-nop
+#   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter: chengleqi/tekton-imagedigestexporter
+#   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init: chengleqi/tekton-pullrequest-init
+#   gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit: chengleqi/tekton-workingdirinit
+#   gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard: chengleqi/tekton-dashboard
